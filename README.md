@@ -3,8 +3,6 @@
 
 This is a fully-buildable example project base on Fullcalendar official demo for FullCalendar and Vue, and add lunar calendar and customize the calendar's style.
 
-This is a fully-buildable example project for FullCalendar and Vue, leveraging Webpack. For a complete walkthrough, read the [FullCalendar Vue Docs &raquo;](https://fullcalendar.io/docs/vue)
-
 ## Installation
 
 ```bash
