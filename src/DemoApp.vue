@@ -62,7 +62,6 @@ export default {
         select: this.handleDateSelect,
         eventClick: this.handleEventClick,
         eventsSet: this.handleEvents,
-        slotDuration: "01:00:00",
         slotLabelFormat: {
           hour: "2-digit",
           minute: "2-digit",
@@ -423,9 +422,10 @@ b { /* used for event dates/times */
         border-color: #dddddd4d;
     }
     .fc-day-today{ background: @easy-color-primary-light;}
+    .fc-timegrid-slot-minor{ border-top: none;}
     .fc-timegrid-slot-label {
         border: none;
-        height: 50px;
+        height: 25px;
 
         .fc-timegrid-slot-label-frame {
             position: relative;
